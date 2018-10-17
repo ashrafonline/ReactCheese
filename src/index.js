@@ -17,7 +17,7 @@ render() {
         <p>
         <b>ReactCheese</b> is a participation for Stackoverflow's <a href='https://meta.stackexchange.com/questions/316515/who-cut-the-cheese?cb=1' target='_blank'>Cheese Overflow 2018</a> .
         <br />
-        <b>ReactCheese</b> is ReactJS component for Cheese lovers ! . You can add your awesome cheese anywhere inside your application . And its flixable !
+        <b>ReactCheese</b> is ReactJS component for Cheese lovers ! . You can add your awesome cheese anywhere inside your application . And its flexible !
         <br />
         </p>
         <b>#Basic Usage :</b>
