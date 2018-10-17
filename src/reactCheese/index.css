@@ -1,0 +1,459 @@
+/*Credit : https://codepen.io/HugoGiraudel/pen/Ewger*/
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+.inner {
+    background: #e2c954;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1), inset 0 -16px 0 rgba(156, 114, 38, 0.8), 0 0 8px rgba(0, 0, 0, 0.2), 0 6px 10px rgba(50, 0, 50, 0.3);
+    list-style-type: none;
+}
+
+li {
+position: absolute;
+background: #c7a834;
+border-radius: 50%;
+box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1), inset 0 5px 8px #aa7828, 0 1px 0 white;
+}
+
+li:nth-child(1) {
+width: 5px;
+height: 5px;
+left: 10px;
+top: 7px;
+}
+
+li:nth-child(2) {
+width: 7px;
+height: 5px;
+top: 4px;
+left: 20px;
+}
+
+li:nth-child(3) {
+height: 9px;
+width: 7px;
+top: 5px;
+left: 32px;
+}
+
+li:nth-child(4) {
+width: 4px;
+height: 6px;
+top: 10px;
+left: 43px;
+}
+
+li:nth-child(5) {
+width: 20px;
+height: 18px;
+left: 50px;
+top: 5px;
+}
+
+li:nth-child(6) {
+width: 4px;
+height: 4px;
+top: 18px;
+right: 14px;
+}
+
+li:nth-child(7) {
+width: 8px;
+height: 6px;
+right: 5px;
+top: 12px;
+}
+
+li:nth-child(8) {
+width: 5px;
+height: 5px;
+right: 6px;
+top: 21px;
+}
+
+li:nth-child(9) {
+width: 5px;
+height: 4px;
+left: 60px;
+top: 28px;
+}
+
+li:nth-child(10) {
+width: 12px;
+height: 14px;
+left: 12px;
+top: 17px;
+}
+
+li:nth-child(11) {
+width: 17px;
+height: 23px;
+left: 28px;
+top: 17px;
+border-radius: 30px 30px 30px 30px / 30px 30px 50px 30px;
+transform: rotate(3deg);
+}
+
+li:nth-child(12) {
+width: 3px;
+height: 3px;
+left: 8px;
+top: 30px;
+}
+
+li:nth-child(13) {
+height: 8px;
+width: 5px;
+left: 3px;
+top: 33px;
+}
+
+li:nth-child(14) {
+width: 5px;
+height: 5px;
+left: 13px;
+top: 35px;
+}
+
+li:nth-child(15) {
+height: 15px;
+width: 9px;
+left: 10px;
+top: 44px;
+border-radius: 30px 30px 30px 30px / 60px 30px 30px 30px;
+}
+
+li:nth-child(16) {
+width: 10px;
+height: 9px;
+left: 23px;
+top: 45px;
+}
+
+li:nth-child(17) {
+width: 12px;
+height: 10px;
+left: 45px;
+top: 42px;
+}
+
+li:nth-child(18) {
+width: 2px;
+height: 2px;
+top: 43px;
+right: 25px;
+}
+
+li:nth-child(19) {
+width: 3px;
+height: 4px;
+right: 20px;
+top: 41px;
+}
+
+li:nth-child(20) {
+height: 15px;
+width: 12px;
+right: 5px;
+top: 37px;
+border-radius: 30px 30px 30px 30px / 30px 30px 60px 60px;
+transform: rotate(4deg);
+}
+
+li:nth-child(21) {
+width: 6px;
+height: 6px;
+left: 7px;
+bottom: 22px;
+}
+
+li:nth-child(22) {
+width: 3px;
+height: 3px;
+bottom: 25px;
+left: 20px;
+}
+
+li:nth-child(23) {
+width: 4px;
+height: 5px;
+bottom: 18px;
+left: 25px;
+}
+
+li:nth-child(24) {
+width: 6px;
+height: 8px;
+bottom: 25px;
+left: 35px;
+}
+
+li:nth-child(25) {
+width: 5px;
+height: 4px;
+bottom: 18px;
+left: 40px;
+}
+
+li:nth-child(26) {
+width: 14px;
+height: 14px;
+bottom: 18px;
+left: 50px;
+border-radius: 50px 50px 50px 50px / 80px 50px 50px 50px;
+}
+
+li:nth-child(27) {
+width: 14px;
+height: 12px;
+left: 66px;
+bottom: 23px;
+}
+
+li:nth-child(28) {
+width: 4px;
+height: 4px;
+left: 3px;
+bottom: 13px;
+}
+
+li:nth-child(29) {
+width: 7px;
+height: 6px;
+bottom: 6px;
+left: 9px;
+}
+
+li:nth-child(30) {
+width: 13px;
+height: 11px;
+left: 23px;
+bottom: 2px;
+border-radius: 60px 60px 60px 60px / 60px 80px 60px 60px;
+}
+
+li:nth-child(31) {
+width: 6px;
+height: 6px;
+bottom: 5px;
+left: 38px;
+}
+
+li:nth-child(32) {
+width: 4px;
+height: 4px;
+bottom: 9px;
+right: 38px;
+}
+
+li:nth-child(33) {
+width: 6px;
+height: 5px;
+bottom: 3px;
+right: 35px;
+}
+
+li:nth-child(34) {
+width: 8px;
+height: 9px;
+bottom: 5px;
+right: 24px;
+}
+
+li:nth-child(35) {
+width: 9px;
+height: 8px;
+bottom: 4px;
+right: 10px;
+}
+
+li:nth-child(36) {
+width: 5px;
+height: 5px;
+right: 5px;
+bottom: 11px;
+}
+
+.switch {
+background: #763d15;
+box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1), inset 0 5px 8px #6e2c14, 0 1px 0 rgba(255, 255, 255, 0.3);
+opacity: 0.8;
+}
+/*****************************************************/
+
+.tiny{
+transform:scale(0.25);
+margin:-35px !important;  
+}
+.small{
+transform:scale(0.50);
+margin:-24px !important;
+}
+.medium{
+transform:scale(0.75);
+margin:-13px !important;
+}
+.xlarge{
+transform:scale(1.50);
+margin:26px !important;
+}
+.xxlarge{
+transform:scale(2);
+margin:50px !important;
+}
+.bite{
+-webkit-clip-path: polygon(150% 35%, 150% 150%, 1% 150%, -50% -50%, 60% 0%, 62% 13%, 61% 23%, 71% 19%, 74% 30%, 83% 25%, 83% 34%, 95% 31%);
+clip-path: polygon(150% 35%, 150% 150%, 1% 150%, -50% -50%, 60% 0%, 62% 13%, 61% 23%, 71% 19%, 74% 30%, 83% 25%, 83% 34%, 95% 31%);
+}
+.musty{
+    filter: sepia(44%) hue-rotate(34deg) saturate(52%) !important;
+}
+
+/*Credit : https://codepen.io/Abobakr/pen/NRRNbk */
+
+.eye {
+position: absolute;
+width: 20px;
+height: 20px;
+top: 32px;
+left: 16px;
+z-index: 1;
+border-radius: 50%;
+background: #995710;
+}
+
+.eye:last-child {
+left: auto;
+right: 16px;
+}
+
+.mouth {
+position: absolute;
+top: 64px;
+left: 0;
+right: 0;
+z-index: 1;
+width: 70px;
+height: 34px;
+margin: 0 auto;
+border-radius: 0 0 70px 70px;
+overflow: hidden;
+background: #995710;
+}
+
+.mouth:before,
+.mouth:after {
+content: '';
+position: absolute;
+display: block;
+}
+
+.mouth.teath:before {
+width: 100%;
+height: 10px;
+z-index: 2;
+background: #fffae6;
+}
+
+.mouth.tounge:after {
+position: absolute;
+width: 38px;
+height: 38px;
+left: 0;
+right: 0;
+top: 15px;
+margin: 0 auto;
+border-radius: 50%;
+background: #d8aa2b;
+}
+
+.heart-eye {
+position: absolute;
+top: 20px;
+left: 16px;
+transform: rotate(-15deg);
+}
+
+.heart-eye:last-child {
+left: auto;
+right: 16px;
+transform: rotate(15deg);
+}
+
+.heart {
+display: block;
+width: 16px;
+height: 16px;
+background: #e25d5d;
+transform: rotate(-45deg);
+}
+
+.heart:before,
+.heart:after {
+content: "";
+position: absolute;
+width: 16px;
+height: 16px;
+border-radius: 50%;
+background-color: #e25d5d;
+}
+
+.heart:before {
+top: -8px;
+left: 0;
+}
+
+.heart:after {
+left: 8px;
+top: 0;
+}
+
+.love .mouth {
+
+top:45px !important;
+}
+.angryCheese{
+    filter: sepia(100%) hue-rotate(310deg) saturate(700%);
+}
+.angry .eye,
+.angry .eye:before,
+.angry .mouth {
+background: #7f2626;
+}
+
+.angry .eye:before {
+content: '';
+display: block;
+position: absolute;
+width: 25px;
+height: 5px;
+top: -5px;
+left: -4px;
+transform: rotate(20deg);
+}
+
+.angry .eye:last-child:before {
+left: auto;
+right: -4px;
+transform: rotate(-20deg);
+}
+
+.angry .mouth {
+width: 30px;
+height: 5px;
+top: 70px;
+border-radius: 0;
+}
+/************************************************************/

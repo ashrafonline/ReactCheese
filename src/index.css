@@ -1,0 +1,52 @@
+body{
+    background-color: #c7a834;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   line-height: 40px;
+}
+.title{
+    color: #aa7828;
+    font-weight: bold;
+    font-size: 35px;
+}
+a{
+    color: #666;
+}
+p{
+    line-height: 35px;
+}
+.code{
+    padding:15px;
+    background:#eee;
+    font-family: 'Courier New', Courier, monospace;
+    color:#666; 
+}
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+
+ .sofProfile{
+    width:200px !important;
+    background-color: #E1ECF4;
+    padding: 3px;
+    color:#666;
+ }
+ .sofProfile a{
+     color:#4e82c2;
+     text-decoration: none;
+ }
